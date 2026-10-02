@@ -1,3 +1,5 @@
+WEB URL= https://estate-iq-gurugram.streamlit.app/
+
 # 🏙️ EstateIQ Gurugram — Real Estate Intelligence & Valuation Portal
 
 > **An enterprise-grade, end-to-end proptech platform featuring complete data engineering, exploratory data analysis, ML price prediction with SHAP explainability, multi-angle property recommendations, geospatial market analytics, financial feasibility calculators, and a production FastAPI REST microservice.**

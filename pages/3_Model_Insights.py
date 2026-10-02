@@ -19,7 +19,7 @@ from branding import (
 )
 
 METADATA_PATH = os.path.join("models", "metadata.json")
-MODEL_PATH = os.path.join("models", "best_pipeline.joblib")
+MODEL_PATH = os.path.join("models", "best_model.pkl") if os.path.exists(os.path.join("models", "best_model.pkl")) else os.path.join("models", "xgboost_pipeline.pkl")
 TRENDS_CSV = "gurgaon_properties_post_feature_selection_v2.csv"
 
 st.set_page_config(

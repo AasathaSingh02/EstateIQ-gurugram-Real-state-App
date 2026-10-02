@@ -22,7 +22,8 @@ from branding import (
     render_feature_cards, col_label, COLUMN_LABELS, PLOTLY_LAYOUT
 )
 
-MODEL_DIR = "models"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
 st.set_page_config(
     page_title="EstateIQ Gurugram | Property Valuation & Intelligence",
